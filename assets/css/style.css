@@ -1,3 +1,8 @@
+body {
+    zoom: 85%;
+    }
+    
+
 #title {
     font-family: 'Montserrat', sans-serif;
     font-size: 100px;
@@ -17,7 +22,7 @@
     border: 2px solid black;
     background-color: #FDFF9C;
     padding: 15px; 
-    width: 6%;
+    width: 5%;
     margin-right: 50px;
     float: right;
 }
@@ -39,7 +44,7 @@ input[type=text] {
     border: 2px solid black;
     background-color: #FDFF9C;
     padding: 15px; 
-    width: 9%;
+    width: 9.5 %;
     margin-right: 50px;
     float: right;
 }
@@ -263,9 +268,9 @@ input[type=text] {
 #subtitle1 {
     float: left;
     width: 100%;
-
+    text-align: center;
     font-family: 'Montserrat', sans-serif;
-    background-color: white;
+    background-color: #E8FFCA;
     padding: 10px;
     border-radius: 25px;
     border: 2px solid black;
@@ -401,11 +406,11 @@ input[type=text] {
     padding: 15px; 
     background-color: green;
     box-shadow: 0 10px grey;
-  }
-  #sub-btn:active {
-      transform: translateY(4px);
-      box-shadow: 0 5px black;
-  }
+}
+#sub-btn:active {
+    transform: translateY(4px);
+    box-shadow: 0 5px black;
+}
 
 
   #input {
